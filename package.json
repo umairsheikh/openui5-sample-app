@@ -12,17 +12,20 @@
 		"test": "npm run lint && npm run karma-ci",
 		"build": "ui5 build -a --clean-dest",
 		"build-self-contained": "ui5 build self-contained -a --clean-dest",
+		"rollup-build": "rollup -c",
 		"serve-dist": "ws --compress -d dist"
 	},
 	"dependencies": {},
 	"devDependencies": {
 		"@ui5/cli": "^2.2.0",
+		"@ui5/to-es6": "matz3/amd-to-es6#ui5-to-es6",
 		"eslint": "^6.8.0",
 		"karma": "^4.4.1",
 		"karma-chrome-launcher": "^3.1.0",
 		"karma-coverage": "^2.0.2",
 		"karma-ui5": "^2.1.0",
 		"local-web-server": "^3.0.7",
-		"rimraf": "^3.0.2"
+		"rimraf": "^3.0.2",
+		"rollup": "^2.8.2"
 	}
 }
