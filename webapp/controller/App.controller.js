@@ -141,7 +141,7 @@ sap.ui.define([
 			}
 
 			this.getView().getModel("view").setProperty("/filterText", sFilterText);
-		},
+		}
 
 	});
 
